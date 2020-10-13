@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@android:color/white"
+    tools:ignore="MissingDefaultResource">
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_lookup"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_green_light" />
+    <ImageView
+        android:id="@+id/btnDog"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/Title"
+        android:src="@drawable/dog"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="100dp"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/btnCat"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/Title"
+        android:src="@drawable/cat"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/btnBird"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btnDog"
+        android:src="@drawable/bird"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="100dp"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/btnFish"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btnCat"
+        android:src="@drawable/fish"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/btnHamster"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btnBird"
+        android:src="@drawable/hamster"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="100dp"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/btnRabbit"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btnFish"
+        android:src="@drawable/rabbit"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:contentDescription="@string/todo" />
+</RelativeLayout>

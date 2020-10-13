@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HamsterFragment"
+    android:background="@android:color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/p1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txthamster1"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p1"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster2"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/p3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p2"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster3"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/hamster1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p3"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster1"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster1"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster4"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/hamster2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p4"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster2"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster2"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster5"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p5"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster6"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <ImageView
+                android:id="@+id/hamster3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p6"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster3"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster3"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster7"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p7"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster8"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p8"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster9"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p9"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster10"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p10"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster11"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/p12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p11"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster12"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/hamster4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p12"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster4"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster4"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster13"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/hamster5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p13"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster5"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster5"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster14"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/hamster6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p14"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster6"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster6"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster15"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/hamster7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/p15"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster7"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster7"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster16"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p16"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster17"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p17"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster18"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p18"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster19"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <ImageView
+                android:id="@+id/hamster8"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p19"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster8"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster8"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster20"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p20"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster21"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p21"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster22"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p22"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster23"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <ImageView
+                android:id="@+id/hamster9"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p23"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster9"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster9"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster24"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p24"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster25"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p25"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster26"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p26"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster27"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p27"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster28"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/hamster10"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p28"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster10"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster10"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster29"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p29"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster30"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p30"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster31"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p31"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster32"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p32"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster33"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p33"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster34"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <ImageView
+                android:id="@+id/hamster11"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p34"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster11"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster11"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster35"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p35"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster36"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p36"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster37"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p37"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster38"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <ImageView
+                android:id="@+id/hamster12"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p38"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster12"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster12"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster39"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p39"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster40"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p40"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster42"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p41"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster43"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p42"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster44"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp" />
+            <ImageView
+                android:id="@+id/hamster13"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/p43"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/hamster13"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/p44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hamster13"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster45"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p44"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster46"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p45"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster47"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p46"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster48"
+                android:textColor="#757474"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/p48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p47"
+                android:layout_marginTop="15dp"
+                android:text="@string/txthamster49"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.evcilhayvanim.HomeFragment"
+        android:label="@string/mainPage"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_dog"
+        android:name="com.example.evcilhayvanim.DogFragment"
+        android:label="Dog"
+        tools:layout="@layout/fragment_dog" />
+
+    <fragment
+        android:id="@+id/nav_cat"
+        android:name="com.example.evcilhayvanim.CatFragment"
+        android:label="Cat"
+        tools:layout="@layout/fragment_cat" />
+
+    <fragment
+        android:id="@+id/nav_bird"
+        android:name="com.example.evcilhayvanim.BirdFragment"
+        android:label="Bird"
+        tools:layout="@layout/fragment_bird" />
+
+    <fragment
+        android:id="@+id/nav_fish"
+        android:name="com.example.evcilhayvanim.FishFragment"
+        android:label="Fish"
+        tools:layout="@layout/fragment_fish" />
+
+    <fragment
+        android:id="@+id/nav_hamster"
+        android:name="com.example.evcilhayvanim.HamsterFragment"
+        android:label="Hamster"
+        tools:layout="@layout/fragment_hamster" />
+
+    <fragment
+        android:id="@+id/nav_rabbit"
+        android:name="com.example.evcilhayvanim.RabbitFragment"
+        android:label="Rabbit"
+        tools:layout="@layout/fragment_rabbit" />
+
+    <fragment
+        android:id="@+id/nav_shelter"
+        android:name="com.example.evcilhayvanim.ShelterFragment"
+        android:label="Shelter"
+        tools:layout="@layout/fragment_shelter" />
+
+    <fragment
+        android:id="@+id/nav_vet"
+        android:name="com.example.evcilhayvanim.VetFragment"
+        android:label="Vet"
+        tools:layout="@layout/fragment_vet" />
+</navigation>

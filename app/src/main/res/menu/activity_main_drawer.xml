@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainPage"
+            android:icon="@drawable/home"
+            android:title="@string/mainPage"
+            android:checked="true"
+            android:onClick="mainPageButtonClick" />
+        <item
+            android:id="@+id/shelter"
+            android:icon="@drawable/shelter"
+            android:title="@string/shortest_petshop"
+            android:onClick="shelterButtonClick" />
+        <item
+            android:id="@+id/vet"
+            android:icon="@drawable/veterinarian"
+            android:title="@string/shortest_vet"
+            android:onClick="vetButtonClick"/>
+        <item
+            android:id="@+id/petLookup"
+            android:title="@string/pet_lookup">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/dog"
+                        android:icon="@drawable/dogicon"
+                        android:title="@string/dog"
+                        android:onClick="dogButtonClick"/>
+                    <item
+                        android:id="@+id/cat"
+                        android:icon="@drawable/caticon"
+                        android:title="@string/cat"
+                        android:onClick="catButtonClick"/>
+                    <item
+                        android:id="@+id/bird"
+                        android:icon="@drawable/birdicon"
+                        android:title="@string/bird"
+                        android:onClick="birdButtonClick"/>
+                    <item
+                        android:id="@+id/fish"
+                        android:icon="@drawable/fishicon"
+                        android:title="@string/akvaryum_canlilar"
+                        android:onClick="fishButtonClick" />
+                    <item
+                        android:id="@+id/hamster"
+                        android:icon="@drawable/hamstericon"
+                        android:title="@string/hamster"
+                        android:onClick="hamsterButtonClick" />
+                    <item
+                        android:id="@+id/rabbit"
+                        android:icon="@drawable/rabbiticon"
+                        android:title="@string/rabbit"
+                        android:onClick="rabbitButtonClick"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
